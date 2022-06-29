@@ -5,7 +5,7 @@ AR6 WG1 Chap3 Figure 3.26 Ocean Heat Content
 Figure number: Figure 3.26
 From the IPCC Working Group I Contribution to the Sixth Assessment Report: Chapter 3
 
-![AR6 WG1 Chap3 Figure 3.26 Ocean Heat Content](../images/ar6_wg1_chap3_figure3_26_oceanheatcontent.png?raw=true)
+![AR6 WG1 Chap3 Figure 3.26 Ocean Heat Content](ar6_wg1_chap3_figure3_26_oceanheatcontent.png?raw=true)
 
 
 Description:
@@ -75,21 +75,21 @@ Publication sources:
 
 ESMValTool Branch:
 ------------------
-- ESMValTool-AR6-OriginalCode-FinalFigures: [ar6_chap_3_ocean_figures](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/tree/ar6_chap_3_ocean_figures)
+- ESMValTool-AR6-OriginalCode-FinalFigures: [ar6_chap_3_ocean_figures](https://github.com/ipcc-wgi/ESMValTool-AR6-OriginalCode-FinalFigures/tree/ar6_chap_3_ocean_figures)
 
 
 ESMValCore Branch:
 ------------------
-- ESMValCore-AR6-OriginalCode-FinalFigures: [optimize_mem_annual_statistic_plus_amoc](https://github.com/ESMValGroup/ESMValCore-AR6-OriginalCode-FinalFigures/tree/optimize_mem_annual_statistic_plus_amoc)
+- ESMValCore-AR6-OriginalCode-FinalFigures: [optimize_mem_annual_statistic_plus_amoc](https://github.com/ipcc-wgi/ESMValCore-AR6-OriginalCode-FinalFigures/tree/optimize_mem_annual_statistic_plus_amoc)
 
 
 Recipe & diagnostics:
 ---------------------
 Recipe used:
-- [recipes/recipe_ocean_heat_content_TSV_all.yml](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/ar6_chap_3_ocean_figures/esmvaltool/recipes/recipe_ocean_heat_content_TSV_all.yml)
+- [recipes/recipe_ocean_heat_content_TSV_all.yml](https://github.com/ipcc-wgi/ESMValTool-AR6-OriginalCode-FinalFigures/blob/ar6_chap_3_ocean_figures/esmvaltool/recipes/recipe_ocean_heat_content_TSV_all.yml)
 
 Diagnostic used:
-- [ocean/diagnostic_chap3_ocean_heat_content.py](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/ar6_chap_3_ocean_figures/esmvaltool/diag_scripts/ocean/diagnostic_chap3_ocean_heat_content.py)
+- [ocean/diagnostic_chap3_ocean_heat_content.py](https://github.com/ipcc-wgi/ESMValTool-AR6-OriginalCode-FinalFigures/blob/ar6_chap_3_ocean_figures/esmvaltool/diag_scripts/ocean/diagnostic_chap3_ocean_heat_content.py)
 
 The OHC, Halo and SSS trends plots are all produced using tyhe same recipe and
 diagnostic. This is because they all require the same process to de-drift.
@@ -233,4 +233,4 @@ We have interchangeably used the terms de-drifting and de-trending, but the
 correct term for the process that we've applied is de-drifting. When something
 is marked as de-trended, it is actually dedrifted.
 
-Additional information can be found in [IPCC_README_files/IPCC_AR6_Chap3_Ocean_figures_notes_ledm_README.md](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/main/IPCC_README_files/IPCC_AR6_Chap3_Ocean_figures_notes_ledm_README.md)
+Additional information can be found in [IPCC_README_files/IPCC_AR6_Chap3_Ocean_figures_notes_ledm_README.md](https://github.com/ipcc-wgi/ESMValTool-AR6-OriginalCode-FinalFigures/blob/main/IPCC_README_files/IPCC_AR6_Chap3_Ocean_figures_notes_ledm_README.md)
